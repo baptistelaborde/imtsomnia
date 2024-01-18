@@ -29,6 +29,7 @@ hgroup {
 .custom-article {
     background-color: #11191f;
     width: 47vw;
+    border-radius: 10px;
 }
 
 @media screen and (orientation: portrait) {
@@ -48,6 +49,7 @@ summary.accordion {
     text-align: left;
     font-weight: bold;
     font-size: 1.4rem;
+    border-radius: 20px;
 }
 
 .accordion {
