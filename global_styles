@@ -1,0 +1,122 @@
+* {
+    font-family: Poppins, Sans-Serif
+}
+
+[data-theme="dark"] {
+    --primary: #3949ab;
+    --primary-hover: #3f51b5;
+    --primary-focus: rgba(57, 73, 171, 0.25);
+    --primary-inverse: #FFF;
+    --background-color: #000014;
+    --card-background-color: #000014;
+}
+
+:root {
+    --form-element-active-border-color: var(--primary);
+    --form-element-focus-color: var(--primary-focus);
+    --switch-color: var(--primary-inverse);
+    --switch-checked-background-color: var(--primary);
+}
+
+select {
+    height: 100%;
+}
+
+hgroup {
+    text-align: center;
+}
+
+.custom-article {
+    background-color: #11191f;
+    width: 47vw;
+}
+
+@media screen and (orientation: portrait) {
+    .custom-article {
+        width: 90vw;
+    }
+}
+
+.close {
+    cursor: pointer;
+}
+
+summary.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 60%;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.accordion {
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    margin: 0 20px;
+}
+
+img.allo-img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.accordion-icon {
+    position: absolute;
+    right: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.accordion-icon i {
+    font-size: 16px;
+    transition: transform 0.3s;
+}
+
+.accordion.open .accordion-icon i {
+    transform: rotate(90deg);
+}
+
+.allo hgroup {
+    margin-top: 2rem;
+}
+
+.allo article {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.status {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    display: inline-block;
+}
+
+.available {
+    background-color: lightgreen;
+}
+
+.unavailable {
+    background-color: lightcoral;
+}
