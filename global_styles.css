@@ -32,6 +32,10 @@ hgroup {
     border-radius: 10px;
 }
 
+#commander {
+    border-radius: 8px;
+}
+
 @media screen and (orientation: portrait) {
     summary.accordion {
         min-width: 70vw;
