@@ -33,6 +33,11 @@ hgroup {
 }
 
 @media screen and (orientation: portrait) {
+    summary.accordion {
+        min-width: 70vw;
+        margin: 0 2%;
+    }
+
     .custom-article {
         width: 90vw;
     }
